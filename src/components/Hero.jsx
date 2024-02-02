@@ -1,6 +1,5 @@
 import React from 'react'
-import HeroPic from '../assets/Hero.jpg'
-import Herosvg from '../assets/hero.svg'
+import HeroPic from '../assets/hero.jpg'
 import SvgBackground from './SvgBackground'
 import { styles } from '../styling'
 
