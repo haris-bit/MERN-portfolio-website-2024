@@ -1,0 +1,48 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.heroPicShadow {
+    box-shadow: 1rem 1rem 0px 0px #4831d4, -1rem -1rem 0px 0px #ccf381;
+}
+
+.button_slide {
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius: 0px;
+    
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 var(--blue);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.slide_down:hover {
+    box-shadow: inset 0 100px 0 0 var(--blue);
+}
+
+.slide_right:hover {
+    box-shadow: inset 300px 0 0 0 var(--blue);
+    color: var(--green);
+}
+
+.slide_left:hover {
+    box-shadow: inset 0 0 0 50px #D80286;
+}
+
+.slide_diagonal:hover {
+    box-shadow: inset 400px 50px 0 0 #D80286;
+}
+
+#outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+:root {
+    --blue: #4831d4;
+    --green: #ccf381;
+}
